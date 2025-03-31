@@ -9,14 +9,18 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
+- [Kayque A. A. Lopes](https://github.com/kayquelopes)
+- [Arthur S. Machado](https://github.com/Arthur-de-Souza-Machado)
+- [Daniel V. da Cunha](https://github.com/DanielVasc)
+- [Murilo V. R. Garcia](https://github.com/Murilovr1)
+- [Jeffrey N. C. de Deus](https://github.com/jeffreynicolas)
+- [Brayan Pedroso de Mattos](https://github.com/brayanpedroso)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/kayquelopes/Frontend-Nexus) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/kayquelopes/Backend-Nexus) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 **Como usar esse modelo para o Projeto Integrador**
 
