@@ -29,68 +29,36 @@ Links do projeto:
 
 **1.1 Modelos de Sistemas**
 
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
+**Site de leitura HQs**
 
-**1.1.1 Ponto de Vendas (PDV)**
-
-**Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-**1.1.2 Empréstimo**
-
-**Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
+ Nexus é um site criado com o objetivo de oferecer leitura gratuita de histórias em quadrinhos. A ideia surgiu a partir do Daniel e foi rapidamente aceita pelo grupo, já que muitos dos integrantes são fãs de HQs, especialmente as da Marvel. O grupo ficou muito animado por terem esse amor compartilhado por esse universo, o grupo decidiu transformar essa paixão em um projeto real, dando origem ao site Nexus.
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
+ Atualmente, muitos sites de leitura de histórias em quadrinhos enfrentam problemas com o histórico de leitura, que frequentemente apresenta falhas ou bugs. Isso dificulta a experiência dos usuários, que acabam tendo que procurar manualmente o capítulo onde pararam, o que atrasa e desmotiva a leitura.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+Outro ponto crítico é a falta de acessibilidade para dispositivos móveis, um aspecto frequentemente ignorado por desenvolvedores de sites desse tipo. Isso afeta diretamente a usabilidade, já que grande parte dos leitores utilizam smartphones e tablets para acessar o conteúdo.
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+Além disso, há uma carência de espaço para os criadores independentes de HQs. Muitos artistas talentosos não têm suas obras valorizadas e divulgadas, dificultando o reconhecimento de seu trabalho.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Com o Nexus, nossa principal proposta é melhorar a acessibilidade, tanto para os leitores quanto para os criadores de conteúdo. Queremos oferecer uma plataforma fluida, funcional em todos os dispositivos, e que também sirva como vitrine para novos talentos conquistarem seu espaço.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+Dentro da nossa proposta, definimos três funções principais que serão as metas centrais do Nexus:
+-  Sistema de histórico eficiente – Um sistema limpo, funcional e intuitivo, que permita ao usuário retomar a leitura exatamente de onde parou, sem complicações ou falhas.
 
-**Alguns pontos importantes a se destacar são:**
+-  Acessibilidade em dispositivos móveis – Garantir que toda a experiência no site seja totalmente adaptada e otimizada para celulares e tablets, oferecendo conforto e praticidade em qualquer tela.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
+-  Espaço para criadores independentes – Disponibilizar uma plataforma aberta para que artistas possam postar suas HQs, ganhando visibilidade e reconhecimento pelo seu trabalho.
 
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Além disso, o Nexus contará com diferentes formas de acesso, de acordo com o perfil de cada usuário:
+
+-  Administrador: responsável pela gestão do site, controle de conteúdo e manutenção geral da plataforma.
+
+-  Criador de conteúdo: usuário que pode postar suas próprias HQs, acompanhar estatísticas e interagir com os leitores.
+
+-  Leitor: usuário comum, que pode navegar pelo catálogo, favoritar obras e acompanhar sua leitura com um sistema de histórico personalizado.
 
 # 4. Modelagem de Dados
 
