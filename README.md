@@ -64,72 +64,40 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 
 
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
+# Regras de Negócio (RNs)
 
-**4.1 O que são regras de negócio?**
+## Cadastro de Usuários
 
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
+- **RN01**: O sistema permitirá o cadastro de usuários com nome, e-mail e senha.
+- **RN02**: O e-mail cadastrado deve ser único no sistema.
+- **RN03**: O sistema enviará um e-mail de confirmação após o cadastro.
 
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
+## Publicação de HQs
 
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
+- **RN04**: Criadores de conteúdo poderão publicar HQs com título, descrição e capítulos.
+- **RN05**: O criador poderá editar ou excluir suas próprias HQs a qualquer momento.
+- **RN06**: HQs publicadas serão visíveis para todos os usuários.
 
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
+## Sistema de Favoritos
 
-**4.2 Regras para a criação de regras de negócio**
+- **RN07**: O sistema permitirá que os usuários adicionem HQs aos seus favoritos.
+- **RN08**: Os usuários poderão visualizar suas HQs favoritas em uma lista separada.
 
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
+## Histórico de Leitura
 
-**4.3 Por que ter regras de negócio?**
+- **RN09**: O sistema manterá o histórico de leitura do usuário.
+- **RN10**: O usuário poderá retomar a leitura do ponto onde parou.
 
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
+## Comentários
 
-**4.4 Exemplos de regras de negócio**
+- **RN11**: Os usuários poderão comentar nas HQs.
+- **RN12**: Criadores de conteúdo poderão gerenciar os comentários de suas próprias HQs.
 
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
+## Tipos de Usuários
 
-**4.5 Como escrever regras de negócio?**
-
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
-
-**4.6 Exemplos de regras de negócio com formatação**
-
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+- **RN13**: O sistema terá três tipos de usuários: Leitor, Criador de conteúdo e Administrador.
+- **RN14**: O Administrador terá permissões para gerenciar conteúdo e usuários.
 
 # 5. Requisitos funcionais (RF)
 
@@ -197,7 +165,7 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 
 # 6. Requisitos não funcionais (RNF)
 
-## 1. Usabilidade e Acessibilidade
+## Usabilidade e Acessibilidade
 
 - **RNF001**: O sistema deverá ter uma paleta de cores clara e escura.
 - **RNF002**: O sistema deve manter o capítulo que o usuário está lendo, mesmo após fechar o site.
@@ -206,20 +174,20 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RNF005**: O sistema deve permitir que o usuário altere suas preferências de leitura, como o tamanho da fonte e o tema.
 - **RNF006**: O sistema deve fornecer feedback claro para o usuário, como mensagens de erro ou confirmações de ação, de forma legível e compreensível.
 
-## 2. Desempenho
+## Desempenho
 
 - **RNF007**: O site deve ser otimizado para carregar rapidamente, com tempo de resposta inferior a 3 segundos.
 - **RNF008**: O sistema deve ter um tempo de inatividade máximo de 1 hora por mês para manutenção, evitando interrupções no serviço.
 
-## 3. Compatibilidade
+## Compatibilidade
 
 - **RNF009**: O sistema deve ser compatível com os navegadores mais utilizados (Chrome, Firefox, Safari, Edge).
 
-## 4. Segurança e Integridade de Dados
+## Segurança e Integridade de Dados
 
 - **RNF011**: O sistema deve garantir a integridade dos dados, prevenindo perdas de dados em caso de falhas inesperadas.
 
-## 5. Escalabilidade
+## Escalabilidade
 
 - **RNF012**: O sistema deve ser escalável, permitindo a adição de novas funcionalidades sem prejudicar a performance.
 
