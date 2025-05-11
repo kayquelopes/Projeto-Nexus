@@ -57,6 +57,8 @@ Além disso, o Nexus contará com diferentes formas de acesso, de acordo com o p
 
 # 4. Modelagem de Dados
 
+![Modelo do Banco](img/Captura%20de%20tela%202025-05-11%20121336.png)
+
 # Regras de negócio (RNs)
 
 ## Cadastro de Usuários
