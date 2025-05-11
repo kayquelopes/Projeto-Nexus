@@ -131,9 +131,7 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
 
-# 5. Requisitos funcionais
-
-## Requisitos Funcionais (RF)
+# 5. Requisitos funcionais (RF)
 
 ##  Create (Criar)
 
@@ -197,9 +195,7 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RF18**: O sistema deve permitir que administradores excluam HQs ou usuários com justificativa.  
   **Dados necessários**: ID da HQ, ID do usuário, justificativa para exclusão.
 
-# 6. Requisitos não funcionais
-
-##  Requisitos Não Funcionais (RNF)
+# 6. Requisitos não funcionais (RNF)
 
 ## 1. Usabilidade e Acessibilidade
 
