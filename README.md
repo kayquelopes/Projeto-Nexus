@@ -57,15 +57,7 @@ Além disso, o Nexus contará com diferentes formas de acesso, de acordo com o p
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
-
-
-
-# 4. Regras de negócio
-
-# Regras de Negócio (RNs)
+# Regras de negócio (RNs)
 
 ## Cadastro de Usuários
 
@@ -99,7 +91,7 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 - **RN13**: O sistema terá três tipos de usuários: Leitor, Criador de conteúdo e Administrador.
 - **RN14**: O Administrador terá permissões para gerenciar conteúdo e usuários.
 
-# 5. Requisitos funcionais (RF)
+# Requisitos funcionais (RF)
 
 ##  Create (Criar)
 
@@ -163,7 +155,7 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 - **RF18**: O sistema deve permitir que administradores excluam HQs ou usuários com justificativa.  
   **Dados necessários**: ID da HQ, ID do usuário, justificativa para exclusão.
 
-# 6. Requisitos não funcionais (RNF)
+# Requisitos não funcionais (RNF)
 
 ## Usabilidade e Acessibilidade
 
