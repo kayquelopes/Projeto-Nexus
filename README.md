@@ -155,8 +155,6 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RF06**: O sistema deve registrar automaticamente o progresso de leitura (histórico).  
   **Dados necessários**: ID do usuário, ID da HQ, ID do capítulo, data e hora do progresso.
 
----
-
 ##  Read (Ler/Visualizar)
 
 - **RF07**: O sistema deve permitir a visualização do catálogo de HQs com filtros de busca.  
@@ -177,8 +175,6 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 - **RF12**: O sistema deve permitir que os usuários vejam os comentários de cada HQ.  
   **Dados necessários**: ID da HQ, lista de comentários (texto, data, autor).
 
----
-
 ##  Update (Atualizar)
 
 - **RF13**: O sistema deve permitir que usuários editem seus perfis (nome, senha, etc.).  
@@ -189,8 +185,6 @@ repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve
 
 - **RF15**: O sistema deve atualizar automaticamente o histórico de leitura quando o usuário avança de capítulo.  
   **Dados necessários**: ID do usuário, ID da HQ, ID do capítulo, data e hora da leitura.
-
----
 
 ##  Delete (Excluir)
 
