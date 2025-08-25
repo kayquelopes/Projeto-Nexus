@@ -20,7 +20,7 @@ Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
 -   Backend: [Repositório](https://github.com/kayquelopes/Backend-Nexus) e [Publicação](https://backend-nexus-ombk.onrender.com)
--   Frontend: [Repositório](https://github.com/kayquelopes/Front-Nexus) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/kayquelopes/Front-Nexus) e [Publicação](https://front-nexus.vercel.app)
 
 # 1. Desenvolvimento
 
