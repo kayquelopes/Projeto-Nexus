@@ -21,6 +21,8 @@ Links do projeto:
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
 -   Backend: [Repositório](https://github.com/kayquelopes/Backend-Nexus) e [Publicação](https://backend-nexus-ombk.onrender.com)
 -   Frontend: [Repositório](https://github.com/kayquelopes/Front-Nexus) e [Publicação](https://front-nexus.vercel.app)
+-   Email: fofucho123@gmail.com
+-   Senha: fofucho1234
 
 # 1. Desenvolvimento
 
